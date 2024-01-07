@@ -4,8 +4,8 @@ export default {
   type: 'document',
   fields: [
     {
-      name: 'number',
-      title: 'Number',
+      name: 'figure',
+      title: 'Figure',
       type: 'number',
     },
     {
