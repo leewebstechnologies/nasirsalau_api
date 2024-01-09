@@ -4,4 +4,6 @@ import contact from './contact'
 import practice from './practice'
 import subscribe from './subscribe'
 import team from './team'
-export const schemaTypes = [homes, practice, cases, team, contact, subscribe]
+import consult from './consult'
+import faq from './faq'
+export const schemaTypes = [consult, faq, homes, practice, cases, team, contact, subscribe]
