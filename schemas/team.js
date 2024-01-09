@@ -1,10 +1,10 @@
 export default {
-  name: 'team',
-  title: 'Team',
+  name: 'teams',
+  title: 'Teams',
   type: 'document',
   fields: [
     {
-      name: 'imageUrl',
+      name: 'imgUrl',
       title: 'ImgURL',
       type: 'image',
       options: {
@@ -22,8 +22,18 @@ export default {
       type: 'string',
     },
     {
-      name: 'specialisation',
-      title: 'Specialisation',
+      name: 'specialisation_a',
+      title: 'Specialisation_a',
+      type: 'string',
+    },
+    {
+      name: 'specialisation_b',
+      title: 'Specialisation_b',
+      type: 'string',
+    },
+    {
+      name: 'specialisation_c',
+      title: 'Specialisation_c',
       type: 'string',
     },
   ],

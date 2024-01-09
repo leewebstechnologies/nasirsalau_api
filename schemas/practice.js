@@ -1,10 +1,10 @@
 export default {
-  name: 'practice',
-  title: 'Practice',
+  name: 'practices',
+  title: 'Practices',
   type: 'document',
   fields: [
     {
-      name: 'imageUrl',
+      name: 'imgUrl',
       title: 'ImgURL',
       type: 'image',
       options: {
