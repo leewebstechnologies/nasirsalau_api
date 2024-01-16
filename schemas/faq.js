@@ -11,7 +11,7 @@ export default {
     {
       name: 'answer',
       title: 'Answer',
-      type: 'string',
+      type: 'text',
     },
   ],
 }
